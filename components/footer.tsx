@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="inline-block mb-6">
-              <Image src="/bahara-logo.png" width={302} height={49} alt="logo" />
+              <Image src="/images/bahara-logo.png" width={302} height={49} alt="logo" />
             </Link>
             <p className="text-gray-400 text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore quibusdam sint
