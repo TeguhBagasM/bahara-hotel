@@ -16,10 +16,10 @@ export default function NotFound() {
         className="h-80 w-80 md:h-96 md:w-96 object-cover"
       />
       <h2 className="text-xl flex items-center text-orange-500 mt-4">
-        Oops! Halaman tidak ditemukan. <FaFrown className="ml-2" />
+        Oops! This page doesn’t exist. <FaFrown className="ml-2" />
       </h2>
       <Link href="/" className="mt-6 flex items-center text-orange-500 font-semibold hover:underline">
-        <FaArrowLeft className="mr-2" /> Kembali ke Beranda
+        <FaArrowLeft className="mr-2" /> Let’s get you back home!
       </Link>
     </div>
   );
