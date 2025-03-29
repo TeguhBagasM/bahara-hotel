@@ -48,7 +48,6 @@ const Hero = () => {
           </Link>
         </div>
 
-        {/* Features Badge */}
         <div className="absolute bottom-8 left-0 right-0 hidden md:flex justify-center space-x-8 px-4">
           <div className="flex items-center bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
             <svg
@@ -103,23 +102,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      {/* Add some custom animations (you need to add this to your globals.css) */}
-      <style jsx>{`
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        .animate-fade-in {
-          animation: fadeIn 1s ease-out forwards;
-        }
-      `}</style>
     </div>
   );
 };
