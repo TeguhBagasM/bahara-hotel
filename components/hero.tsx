@@ -36,27 +36,13 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
           <Link
             href="/room"
-            className="bg-orange-500 text-white hover:bg-orange-600 py-3 px-8 sm:px-10 text-lg font-semibold rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center"
+            className="bg-orange-500 text-white hover:bg-orange-600 py-2 px-8 text-lg font-semibold rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center justify-center"
           >
             <span>Book Now</span>
-            <svg
-              className="w-5 h-5 ml-2"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M14 5l7 7m0 0l-7 7m7-7H3"
-              ></path>
-            </svg>
           </Link>
           <Link
             href="/contact"
-            className="bg-transparent border-2 border-orange-400 text-white hover:bg-orange-400/20 py-3 px-8 sm:px-10 text-lg font-semibold rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+            className="bg-transparent border-2 border-orange-400 text-white hover:bg-orange-400/20 py-2 px-8 text-lg font-semibold rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
           >
             Contact Us
           </Link>
