@@ -31,7 +31,7 @@ const Navlink = () => {
           </li>
           <li>
             <Link
-              href="/"
+              href="/about"
               className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               About
@@ -39,7 +39,7 @@ const Navlink = () => {
           </li>
           <li>
             <Link
-              href="/"
+              href="/room"
               className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               Rooms
@@ -47,7 +47,7 @@ const Navlink = () => {
           </li>
           <li>
             <Link
-              href="/"
+              href="/contact"
               className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               Contact
