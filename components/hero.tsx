@@ -6,7 +6,6 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="relative min-h-screen text-white overflow-hidden">
-      {/* Hero Background with Parallax Effect */}
       <div className="absolute inset-0">
         <Image
           src="/images/hero.jpg"
@@ -16,23 +15,18 @@ const Hero = () => {
           sizes="100vw"
           className="object-cover object-center w-full h-full transform scale-105 md:scale-100"
         />
-        {/* Gradient Overlay instead of flat black */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
       </div>
 
-      {/* Content Container */}
       <div className="relative flex flex-col justify-center items-center h-screen text-center px-4 sm:px-6 lg:px-8">
-        {/* Main Heading with Animation */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-3 sm:mb-4 capitalize text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-100 animate-fade-in">
           Book Your Luxury Room
         </h1>
 
-        {/* Subheading */}
         <p className="text-lg sm:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl opacity-90">
           Experience unparalleled comfort and elegance with exclusive offers just for you today.
         </p>
 
-        {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
           <Link
             href="/room"
