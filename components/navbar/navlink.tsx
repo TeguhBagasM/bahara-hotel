@@ -24,7 +24,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               Home
             </Link>
@@ -32,7 +32,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               About
             </Link>
@@ -40,7 +40,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               Rooms
             </Link>
@@ -48,7 +48,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               Contact
             </Link>
@@ -56,7 +56,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/myreservation"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               My Reservations
             </Link>
@@ -64,7 +64,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/admin/dashboard"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               Dashboard
             </Link>
@@ -72,7 +72,7 @@ const Navlink = () => {
           <li>
             <Link
               href="/admin/room"
-              className="block py-2 px-3 text-gray-800 hover:bg-gray-100 rounded-sm md:hover:bg-transparent md:p-0"
+              className="block py-2.5 px-3 text-gray-800 hover:text-orange-500 hover:bg-gray-50 rounded-md md:hover:bg-transparent md:p-0 transition-colors"
             >
               Manage Room
             </Link>
